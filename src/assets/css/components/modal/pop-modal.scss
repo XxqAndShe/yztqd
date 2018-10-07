@@ -1,0 +1,100 @@
+/*** 普通对话窗口 ***/
+
+.pop-modal-container {
+    box-shadow: $box-shadow-grey;
+    z-index: z-index("popup");
+    transform: none!important;
+
+    /**
+    * 弹窗头部
+    */
+    .pop-modal-header {
+        height: 40px;
+        background: $pop-modal-header;
+        padding: 4px 15px;
+
+        .pop-modal-title {
+            color: $color-white;
+            line-height: 40px;
+        }
+        .close-icon {
+            float: right;
+            font-size: 20px;
+            cursor: pointer;
+            opacity: 0.7;
+            line-height: 40px;
+            color: $color-white;
+        }
+    }
+
+    /**
+    * 弹窗主体
+    */
+    .pop-modal-body {
+        padding: 15px;
+        border-bottom: $border-light;
+        background: $color-white;
+    }
+
+    /**
+    * 弹窗底部
+    */
+    .pop-modal-footer {
+        padding: 10px 0;
+        text-align: center;
+        background: $color-white;
+    }
+}
+
+
+/*弹框样式*/
+
+.dialog-box {
+    /*修改项*/
+    width: 513px;
+    /*修改项*/
+    box-shadow: 1px 2px 10px #717171, -1px 2px 10px #717171;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1500;
+    background-color: #fff;
+}
+
+.dialog-box > .dialog-box-title {
+    width: 100%;
+    height: 40px;
+    background: #2d3244;
+    display: block;
+    padding: 4px 15px;
+    box-sizing: border-box;
+}
+
+.dialog-box > .dialog-box-title > span {
+    font-size: 14px;
+    color: #fff;
+    line-height: 33px;
+}
+
+.dialog-box > .dialog-box-title > .dialog-left {
+    float: left;
+}
+
+.dialog-box > .dialog-box-title > .dialog-right {
+    float: right;
+    font-size: 30px;
+    cursor: pointer;
+    opacity: 0.7;
+    line-height: 29px;
+}
+
+.dialog-box > .dialog-box-content {
+    padding: 15px;
+    /*修改项*/
+    border-bottom: 1px solid #e5e5e5;
+    box-sizing: border-box;
+}
+
+.dialog-box > .dialog-box-footer {
+    text-align: center;
+}

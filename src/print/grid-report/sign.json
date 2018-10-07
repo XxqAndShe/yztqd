@@ -1,0 +1,33 @@
+﻿{
+    "Table": [
+        {
+            "serviceType": "维修ff",
+            "tmall": "天猫",
+            "goodsName_1": "王老吉",
+            "goodsNum_1": "12件",
+            "tmall_check_": "需核销",
+            "waybillid": "1zt201708011",
+            "checkAsk": "是否已核销【是，否】(勾选)",
+            "remark": "撒范德萨发是打发方式撒的发斯蒂芬圣达菲圣达菲圣达菲是打发打发山大发生大发发三大发放的啥地方撒地方撒的发斯蒂芬撒的发生撒发撒<br/>的撒范德萨圣达菲圣达菲撒大啥的防守打法啥地方撒啥地方撒撒发撒阿范德萨暗示法萨芬啊啥地方萨芬奥术法师",
+            "barCode": "iVBORw0KGgoAAAANSUhEUgAAAPsAAABGAQAAAAAiXd+gAAAACXBIWXMAAA9hAAAPYQGoP6dpAAAAEnRFWHRTb2Z0d2FyZQBCYXJjb2RlNEryjnYuAAAAuUlEQVR42mMocdFb9EhrkVX3Atcrsa6yLu5Bjzp2rLJY9aKxJKQk3MWBYVTBqIJRBaMKRhWMKhhVQE8F//GDB0gKvv87+P+eTe3DY3wW2BU8/3fv/9zbO9/vfnu9HquC6yxxz+Pv77y//y4OBd/f3bt9//7Ww8v34lRw8P79faV3Z+8zw6Hg3r379/ev/bt7700cCvYBFdQv+Lu79j5OBbfv/d57d3ctLjewOT6/I1P7+HgdjnDAHpIAG8OYI8nWaSQAAAAASUVORK5CYII="
+        },
+        {
+            "serviceType": "维修",
+            "tmall": "天猫",
+            "goodsName_1": "电冰箱",
+            "goodsNum_1": "1件",
+            "checkAsk": "是否已核销(是，否)",
+            "remark": "备注：撒范德萨发是打发方式撒的发斯蒂芬圣达菲圣达菲圣达菲是打发打发山大发生大发发三大发放的啥地方撒地方撒的发生啥地方萨芬撒的发撒发生的撒范德萨发山大按时发放士大夫撒旦大发生的撒的发斯蒂芬撒发生的沙发桑圣达菲沙发沙发圣达菲圣达菲撒撒发生的安抚啥地方",
+            "barCode": "abc123"
+        },
+        {
+            "serviceType": "维修",
+            "tmall": "天猫",
+            "goodsName_1": "婴儿睡床",
+            "goodsNum_1": "2件",
+            "checkAsk": "是否已核销(是，否)",
+            "remark": "备注：撒范德萨发是打发方式撒的发斯蒂芬圣达菲圣达菲圣达菲是打发打发山大发生大发发三大发放的啥地方撒地方撒的发生啥地方萨芬撒的发撒发生的撒范德萨发山大按时发放士大夫撒旦大发生的撒的发斯蒂芬撒发生的沙发桑圣达菲沙发沙发圣达菲圣达菲撒撒发生的安抚啥地方",
+            "barCode": "iVBORw0KGgoAAAANSUhEUgAAAPsAAABGAQAAAAAiXd+gAAAACXBIWXMAAA9hAAAPYQGoP6dpAAAAEnRFWHRTb2Z0d2FyZQBCYXJjb2RlNEryjnYuAAAAuUlEQVR42mMocdFb9EhrkVX3Atcrsa6yLu5Bjzp2rLJY9aKxJKQk3MWBYVTBqIJRBaMKRhWMKhhVQE8F//GDB0gKvv87+P+eTe3DY3wW2BU8/3fv/9zbO9/vfnu9HquC6yxxz+Pv77y//y4OBd/f3bt9//7Ww8v34lRw8P79faV3Z+8zw6Hg3r379/ev/bt7700cCvYBFdQv+Lu79j5OBbfv/d57d3ctLjewOT6/I1P7+HgdjnDAHpIAG8OYI8nWaSQAAAAASUVORK5CYII="
+        }
+    ]
+}

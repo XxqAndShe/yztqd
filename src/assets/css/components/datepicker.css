@@ -1,0 +1,200 @@
+.daterangepicker {
+    position: absolute;
+    color: #111;
+    background: #fff;
+    border-radius: 4px;
+    width: 278px;
+    padding: 4px;
+    margin-top: 1px;
+    top: 100px;
+    left: 20px;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 4px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+
+.daterangepicker .calendar {
+    display: none;
+    max-width: 270px;
+    margin: 4px;
+}
+
+.daterangepicker.show-calendar .calendar {
+    display: block;
+}
+
+.daterangepicker .daterangepicker_input {
+    position: relative;
+}
+
+.daterangepicker .form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.daterangepicker .input-mini {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #555;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    vertical-align: middle;
+    margin: 0 0 5px;
+    padding: 0 6px 0 28px;
+    width: 81% !important;
+}
+
+.daterangepicker .input-mini.active {
+    border: 1px solid #08c;
+    border-radius: 4px;
+}
+
+.daterangepicker:after, .daterangepicker:before {
+    position: absolute;
+    display: inline-block;
+    content: '';
+}
+
+.daterangepicker:before {
+    top: -7px;
+    border-right: 7px solid transparent;
+    border-left: 7px solid transparent;
+    border-bottom: 7px solid #ccc;
+}
+
+.daterangepicker.opensright:before {
+    left: 9px;
+}
+
+.daterangepicker .fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.daterangepicker .daterangepicker_input i {
+    position: absolute;
+    left: 8px;
+    top: 8px;
+}
+
+.daterangepicker .calendar-time {
+    text-align: center;
+    margin: 5px auto;
+    line-height: 30px;
+    position: relative;
+    padding-left: 28px;
+}
+
+.daterangepicker .calendar-time {
+    text-align: center;
+    margin: 5px auto;
+    line-height: 30px;
+    position: relative;
+    padding-left: 28px;
+}
+
+.daterangepicker .calendar-table {
+    border: 1px solid #fff;
+    padding: 4px;
+    border-radius: 4px;
+    background: #fff;
+}
+
+.daterangepicker table {
+    background-color: transparent;
+}
+
+.daterangepicker table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.daterangepicker table {
+    width: 100%;
+    margin: 0;
+}
+
+.daterangepicker .calendar td, .daterangepicker .calendar th {
+    white-space: nowrap;
+    text-align: center;
+    min-width: 32px;
+    padding: 5px 0;
+}
+.daterangepicker td, .daterangepicker th {
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.daterangepicker td, .daterangepicker th {
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.daterangepicker .calendar td, .daterangepicker .calendar th {
+    white-space: nowrap;
+    text-align: center;
+    min-width: 32px;
+}
+.daterangepicker td.off, .daterangepicker td.off.end-date, .daterangepicker td.off.in-range, .daterangepicker td.off.start-date {
+    background-color: #fff;
+    border-color: transparent;
+    color: #999;
+}
+
+.daterangepicker .btn-success {
+    background-color: #0d85e4;
+    color: #ffffff;
+    border: none;
+    margin-right: 10px;
+}
+
+.daterangepicker .btn-default {
+    color: #333;
+    border: 1px solid #dddddd;
+    background-color: #f7f7f7;
+}
+
+.daterangepicker .btn-default:hover {
+    background-color: #fff;
+}

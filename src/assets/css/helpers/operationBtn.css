@@ -1,0 +1,153 @@
+/**
+*操作按钮公共样式
+*
+**/
+
+.order-btn-wrap{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100% - 0px);
+    height: 100%;
+    background-color: #f7f8fa;
+    box-sizing: border-box;
+    padding: 0 6px;
+}
+.order-btn-wrap a, .opt-btn-border{
+    border-left: 1px solid #aaa;
+    padding-left: 10px;
+    margin-left: 10px;
+    color: #666;
+}
+.order-btn-wrap>span, .order-btn-wrap>i {
+    line-height: 30px;
+    height: 30px;
+}
+.order-btn-wrap .select-num {
+    color: #0d85e4;
+    padding: 0 7px;
+}
+.order-btn-wrap .close-btn {
+    position: absolute;
+    right: 5px;
+    cursor: pointer;
+    height: 30px;
+    line-height: 30px;
+    color: #d6d6d6;
+    font-size: 22px;
+}
+
+/*任何用到雪碧图的操作按钮需用此类，避免重复写以下样式*/
+.opt-btn{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin: 0 2px 0 0;
+    vertical-align: sub;
+    background-size: 122px!important;
+}
+/*任何 未 用到雪碧图的操作按钮需用此类，避免重复写以下样式*/
+.opt-n-btn{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin: 0 5px 0 0;
+    vertical-align: sub;
+}
+.opt-whitelist-btn {
+    background: url(/assets/images/common/operation.png) no-repeat -78px -74px;
+}
+
+.opt-blacklist-btn {
+    background: url(/assets/images/common/operation.png) no-repeat -25px 0;
+}
+
+.opt-confirm-btn {
+    background: url(/assets/images/common/operation.png) no-repeat -51px -96px;
+}
+
+.opt-48-btn {
+    background: url(/assets/images/dispatch-manage/48-oper.png) no-repeat;
+}
+
+.opt-user-btn {
+    background: url(/assets/images/common/operation.png) no-repeat -25px -72px;
+}
+
+.opt-modify-btn {
+    background: url(/assets/images/common/operation.png) no-repeat 0 -72px;
+}
+.opt-stop-btn {
+    background: url(/assets/images/common/operation.png) no-repeat -103px -50px;
+}
+.opt-trunkEnd-btn{
+    background: url(/assets/images/common/operation.png) no-repeat -25px -50px;
+}
+.opt-mark-btn {
+    background: url(/assets/images/common/operation.png) no-repeat -77px -49px;
+}
+
+.opt-accept-btn {
+    background: url(/assets/images/dispatch-manage/accept.png) no-repeat;
+}
+
+.opt-cancel-btn {
+    background: url(/assets/images/common/operation.png) no-repeat -77px 1px;
+}
+
+.opt-order-btn {
+    background: url(/assets/images/common/operation.png) no-repeat -26px -119px;
+}
+
+.opt-pick-btn {
+    background: url(/assets/images/common/operation.png) no-repeat -50px -119px;
+}
+.opt-sign-btn {
+    background: url(/assets/images/dispatch-manage/sign.png);
+}
+.opt-cancelSign-btn {
+    background: url(/assets/images/dispatch-manage/cancelSign.png) no-repeat;
+}
+.opt-detail-btn {
+    background: url(/assets/images/common/operation.png) no-repeat -25px -24px;
+}
+.opt-msf-btn {
+    width: 13px;
+    height: 13px;
+    vertical-align: middle;
+    margin-top: -3px;
+    background: url(/assets/images/common/opt-msf-btn.png);
+}
+.opt-track-btn {
+    background: url(/assets/images/common/operation.png) no-repeat -78px -97px;
+}
+.opt-handle-btn {
+    background: url(/assets/images/dispatch-manage/abnormal.png) no-repeat;
+}
+.opt-parse-btn{
+    background: url(/assets/images/common/operation.png) no-repeat -25px -97px;
+}
+.opt-rubbish-btn{
+    background: url(/assets/images/common/operation.png) no-repeat -51px -25px;
+}
+.opt-start-btn{
+    background: url(/assets/images/common/operation.png) no-repeat 0 -98px;
+}
+.opt-reject-btn{
+    background: url(/assets/images/common/operation.png) no-repeat -103px 0;
+}
+.opt-audit-btn{
+    background: url(/assets/images/common/operation.png) no-repeat 0 0;
+}
+.opt-shenpi-btn{
+    background: url(/assets/images/financial-center/finan-icon.png) no-repeat -14px 0;
+}
+.opt-abnormal-btn{
+    background: url(/assets/images/common/operation.png) no-repeat -103px -24px;
+}
+.opt-shouli-btn{
+    background: url(/assets/images/common/operation.png) no-repeat -103px -74px;
+}
+.opt-lock-btn{
+    background: url(/assets/images/common/operation.png) no-repeat -1px -118px;
+}

@@ -1,0 +1,30 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>打印签收单</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <script src="./grid-report/CreateControl.js"></script>
+    <script src="./grid-report/GRUtility.js"></script>
+    <script src="../config/global_config.js"></script>
+    <script type="text/javascript">
+        function window_onload() {
+            if(!ReportViewer.Stop){
+                alert('检测到您的浏览器没有安装打印插件，即将下载插件手动安装！')
+                window.open(window.location.protocol + '//' + window.location.host + "/print/grbsctl6.exe");
+                return;
+            }
+            var idString=localStorage.getItem('print_sign_task_id');
+            var dataURL = window.baseUrl + "/signPaper/findSignInfo?ids=" + idString;
+//            var Report = ReportViewer.Report;
+            AjaxReportViewerStart(ReportViewer, dataURL);
+        }
+    </script>
+</head>
+<body style="margin:0" onload="window_onload()">
+<script type="text/javascript">
+    var reportURL = "grid-report/sign.grf";
+    //    var dataURL = window.baseUrl + "/signPaper/findSignInfo?ids=V01gFphTCSo0gFKt,V010nDrcDoIo3sVs";
+
+    CreatePrintViewerEx("100%", "100%", reportURL, "", false, "");
+</script>
+</body>
+</html>
